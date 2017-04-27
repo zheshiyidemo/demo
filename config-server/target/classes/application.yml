@@ -1,0 +1,24 @@
+
+server:
+  port: 8002
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zheshiyidemo/demo.git
+          searchPaths: cloud-config-repo
+          username: zheshiyidemo
+          password: asd123123
+      discovery:
+        enabled: true
