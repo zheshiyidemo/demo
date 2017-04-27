@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="epic" />
+        <module name="gatetway" />
+        <module name="service" />
+        <module name="service1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="epic" target="1.5" />
+      <module name="gatetway" target="1.5" />
+      <module name="microservice" target="1.5" />
+      <module name="service" target="1.5" />
+      <module name="service1" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
