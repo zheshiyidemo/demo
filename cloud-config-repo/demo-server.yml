@@ -2,7 +2,7 @@ info:
   description: demo-server
   
 spring:
-  description: dev
+  profiles: dev
 
 demos: demo
 
