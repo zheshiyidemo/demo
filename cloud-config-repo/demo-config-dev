@@ -1,0 +1,7 @@
+info:
+  description: demo-server
+
+spring:
+  profile: dev
+
+demos: demo
