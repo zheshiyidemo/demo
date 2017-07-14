@@ -1,1 +1,8 @@
+info:
+  description: demo-server
+  
+spring:
+  description: dev
+
 demos: demo
+
