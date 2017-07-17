@@ -1,6 +1,3 @@
-info:
-  description: demo-server
-  
 spring:
   profiles: dev
 
