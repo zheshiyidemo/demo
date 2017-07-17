@@ -3,5 +3,4 @@ info:
 
 spring:
   profile: dev
-
-demos: demo
+  demos: demo
