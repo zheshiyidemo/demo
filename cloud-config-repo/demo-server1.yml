@@ -1,6 +1,4 @@
 spring:
-  cloud:
-    config:
-      profile: master
+  profile: master
       
 demos: demo
